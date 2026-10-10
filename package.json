@@ -9,6 +9,7 @@
   },
   "scripts": {
     "start": "tsx nemotron-agent.ts",
+    "mcp-agent": "tsx mcp-agent-nemotron.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,7 +17,8 @@
   "license": "ISC",
   "dependencies": {
     "@earendil-works/pi-ai": "^1.1.0",
-    "@earendil-works/pi-coding-agent": "^1.1.0"
+    "@earendil-works/pi-coding-agent": "^1.1.0",
+    "@modelcontextprotocol/sdk": "^1.32.1"
   },
   "devDependencies": {
     "@types/node": "^26.6.5",

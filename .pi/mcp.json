@@ -1,10 +1,10 @@
 {
   "mcpServers": {
-    "trivy": {
-      "command": "trivy",
-      "args": [
-        "mcp"
-      ]
+    "finance": {
+      "command": "npx",
+      "args": ["tsx", "/home/umesh-pc/Desktop/workspace/Agent-Harness-PI/mcp-server.ts"],
+      "exposure": "direct",
+      "description": "Live stock quotes and server performance metrics"
     }
   }
 }
