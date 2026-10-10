@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "trivy": {
+      "command": "trivy",
+      "args": [
+        "mcp"
+      ]
+    }
+  }
+}
